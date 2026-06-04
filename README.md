@@ -36,7 +36,7 @@ All queries are in `03-spl-queries/` folder.
 | Persistence | persistence-detection.spl |
 
 ## Screenshots
-10 key screenshots in `04-screenshots/` showing:
+screenshots in `04-screenshots/` showing:
 - Lab setup and configuration
 - Attack simulations
 - Splunk detections and dashboard
