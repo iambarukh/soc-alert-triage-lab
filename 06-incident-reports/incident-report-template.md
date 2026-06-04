@@ -56,7 +56,7 @@
 ## False Positive vs True Positive Analysis
 | Alert | Classification | Reason |
 |-------|---------------|--------|
-| Multiple failed logins | True Positive | 10 failures in 5 min — not normal |
+| Multiple failed logins | True Positive | 10 failures in 5 min not normal |
 | New admin user | True Positive | Unexpected account creation |
 | Encoded PowerShell | True Positive | Legitimate software rarely uses -EncodedCommand |
 | Scheduled task | Investigate | Could be legitimate check task content |
