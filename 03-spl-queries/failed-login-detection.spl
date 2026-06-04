@@ -1,1 +1,3 @@
-
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=4625
+| stats count as Failed_Attempts by Account_Name, host
+| sort - Failed_Attempts
