@@ -1,0 +1,10 @@
+index=wineventlog
+| eval Detection=case(
+    sourcetype="WinEventLog:Security" AND EventCode=4625, "Failed Login",
+    sourcetype="WinEventLog:Security" AND EventCode=4720, "New User Created",
+    sourcetype="WinEventLog:Security" AND EventCode=4732, "Group Membership Changed",
+    source="WinEventLog:Microsoft-Windows-Sysmon/Operational", "Sysmon Activity"
+)
+| where isnotnull(Detection)
+| stats count by Detection
+| sort - count
