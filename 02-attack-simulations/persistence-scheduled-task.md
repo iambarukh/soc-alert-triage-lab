@@ -27,4 +27,4 @@ net localgroup administrators HackerUser /add
 - Event ID: 4732 (added to admins)
 
 ## Detection Query
-See `06-New User Created Detection.png`
+See `05-New User Created Detection.png`
