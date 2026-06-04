@@ -10,7 +10,7 @@
 ## Steps Performed
 1. Downloaded Windows 10 ISO from Microsoft
 2. Created new VM in VMware Workstation
-3. Allocated 6GB RAM and 50GB disk
+3. Allocated 2GB RAM and 60GB disk
 4. Installed Windows 10
 5. Noted VM IP address using `ipconfig`
 
@@ -20,4 +20,4 @@
 - Username: SOCUser
 
 ## Screenshot
-See `04-screenshots/01-windows-vm-running.png`
+See `03-windows-vm-running.png`
