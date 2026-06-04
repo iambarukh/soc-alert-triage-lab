@@ -52,4 +52,4 @@ net start SplunkForwarder
 ```
 
 ## Screenshot
-See `04-screenshots/03-sysmon-installed-running.png`
+See 02-sysmon-installed-running.png
