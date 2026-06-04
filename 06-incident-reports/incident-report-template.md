@@ -1,16 +1,16 @@
 # Incident Report — SOC Alert Triage Lab
 
 ## Incident Summary
-- **Date:** 2024-XX-XX
-- **Analyst:** [Tumhara Naam]
+- **Date:** 06/04/2026
+- **Analyst:** Barukh Aswad
 - **Severity:** High
-- **Status:** Resolved (Lab Exercise)
+- **Status:** Resolved 
 
 ## Timeline
 | Time | Event |
 |------|-------|
 | T+00 | Multiple failed login attempts detected (Event ID 4625) |
-| T+05 | Brute force alert triggered — 10 failed logins in 5 min |
+| T+05 | Brute force alert triggered 10 failed logins in 5 min |
 | T+10 | New user "HackerUser" created and added to Administrators |
 | T+15 | Suspicious encoded PowerShell command executed |
 | T+20 | Scheduled task "WindowsUpdateHelper" created for persistence |
@@ -59,7 +59,7 @@
 | Multiple failed logins | True Positive | 10 failures in 5 min — not normal |
 | New admin user | True Positive | Unexpected account creation |
 | Encoded PowerShell | True Positive | Legitimate software rarely uses -EncodedCommand |
-| Scheduled task | Investigate | Could be legitimate — check task content |
+| Scheduled task | Investigate | Could be legitimate check task content |
 | Registry Run key | True Positive | Hidden PowerShell in Run key is suspicious |
 
 ## Recommendations
@@ -71,4 +71,4 @@
 
 ## Escalation Decision
 - Escalate to L2: YES
-- Reason: Multiple persistence mechanisms found — possible full compromise
+- Reason: Multiple persistence mechanisms found, possible full compromise
