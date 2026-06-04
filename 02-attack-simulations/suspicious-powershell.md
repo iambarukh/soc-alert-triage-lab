@@ -17,4 +17,4 @@ powershell.exe -EncodedCommand $encoded
 - Sysmon logs full CommandLine (Event ID 1)
 
 ## Detection Query
-See `05-User Added to Group Detection.png`
+See `06-User Added to Group Detection.png`
