@@ -33,4 +33,4 @@ Settings → Indexes → New Index
 - Username: admin
 
 ## Screenshot
-See `04-screenshots/02-splunk-dashboard-login.png`
+01-splunk-dashboard-login.png`
