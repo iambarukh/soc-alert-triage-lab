@@ -7,12 +7,12 @@
 - **Date/Time:** 0/04/2026
 
 ## Reason for Escalation
-Multiple attack stages detected on host — brute force followed
+Multiple attack stages detected on host, brute force followed
 by privilege escalation and persistence. Full compromise suspected.
 
 ## What I Found 
-1. Brute force attack — 10 failed logins on FakeUser
-2. New admin account created — HackerUser
+1. Brute force attack 10 failed logins on FakeUser
+2. New admin account created  HackerUser
 3. Encoded PowerShell executed
 4. Two persistence mechanisms installed
 
