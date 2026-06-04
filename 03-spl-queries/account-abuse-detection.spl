@@ -1,0 +1,7 @@
+index=wineventlog sourcetype="WinEventLog:Security" (EventCode=4720 OR EventCode=4732)
+| eval Detection=case(
+    EventCode=4720, "New User Created",
+    EventCode=4732, "User Added to Group"
+)
+| table _time host EventCode Detection Account_Name Account_Domain Message
+| sort - _time
