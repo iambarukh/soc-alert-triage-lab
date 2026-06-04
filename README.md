@@ -47,9 +47,3 @@ All queries are in `03-spl-queries/` folder.
 - SPL query writing
 - Alert triage (True Positive vs False Positive)
 - Incident documentation and escalation
-
-## Resume Line
-Built a Splunk-based SOC lab ingesting Windows Sysmon logs,
-created detection rules for brute force, suspicious PowerShell,
-persistence, and privilege escalation, and documented alert
-triage and escalation workflows.
