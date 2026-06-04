@@ -1,1 +1,3 @@
-
+index=wineventlog sourcetype="WinEventLog:Security" EventCode=4720
+| table _time host Account_Name Account_Domain Message
+| sort - _time
